@@ -25,9 +25,8 @@
    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+#include <cutils/properties.h>
 #include <sys/sysinfo.h>
-
-#include "property_service.h"
 
 char const *heapstartsize;
 char const *heapgrowthlimit;
